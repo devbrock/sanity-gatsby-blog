@@ -93,7 +93,8 @@ const IndexPage = props => {
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
         {/* <h1>Welcome to {site.title}</h1> */}
-        <h1>Welcome to my blog!</h1>
+        <h1>Hey there!</h1>
+        <h1>I'm Brock, Full Stack Developer.</h1>
         {postNodes && (
           <BlogPostPreviewList
             title="Latest blog posts"
